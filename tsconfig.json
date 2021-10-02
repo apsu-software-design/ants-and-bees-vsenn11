@@ -7,10 +7,14 @@
         "removeComments": true,
         "alwaysStrict": true
     },
+    "typedocOptions":{
+        "entryPoints": ["/index.js"],
+        "out": "docs"
+    },
     "include": [
         "src/**/*"
     ],
     "exclude": [
-        "node_modules"
+        
     ]
 }
